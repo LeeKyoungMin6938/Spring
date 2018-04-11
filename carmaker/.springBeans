@@ -11,6 +11,7 @@
 		<config>src/main/resources/coffee.xml</config>
 		<config>src/main/resources/ojc2.xml</config>
 		<config>src/main/resources/animal.xml</config>
+		<config>src/main/resources/animal2.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

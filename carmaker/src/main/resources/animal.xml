@@ -4,14 +4,6 @@
 	xmlns:context="http://www.springframework.org/schema/context"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
-	<bean id="cat" class="test2.xml.Cat"></bean>
-	<bean id="dog" class="test2.xml.Dog"></bean>
-	<bean id="elepent" class="test2.xml.Elepent"></bean>
-	<bean id="animalOwner" class="test2.xml.AnimalOwner">
-		<!-- 세터주입 setter injection-->
-		<property name="a">
-		<ref bean="elepent"></ref>
-		</property>
-	</bean>
-
+	<context:component-scan base-package="test2.xml"/>
 </beans>
+ 
